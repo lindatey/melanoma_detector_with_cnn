@@ -26,11 +26,11 @@ A solution which can evaluate images and alert the dermatologists about the pres
 All belows model uses dataset that has been rescaled before CNN is applied.
 
 - Conclusion 1 from the analysis
-- The analysis started with a simple based model with only dense layer. With the base model, it was clear there was overfitting as the result curve from train and validation has a significant gap. To handle this, data augmentation is planned for the next model.
+- The analysis started with a simple based model with only dense layer. With the base model, it was clear there was underfittin as the result curve from train and validation has a minor gap yet low accuracy. To handle this, data augmentation is planned for the next model.
 
   
 - Conclusion 2 from the analysis
-- With data augmentation being implemented, the gap between training and validation curve accuracy can be seen significantly removed. However the model is too simple that the accuracy was too low (<50%) therefor was not acceptable.
+- With data augmentation being implemented, the gap between training and validation curve accuracy can be seen significantly removed. However the model is too simple that the accuracy was still too low (<50%) therefor was not acceptable.
   
 - 2 Convolutional layers and 2 max pooling layers were added to the model extended from the model 2. The batch normalization was used as well to reduce the parameters to be trained to allow faster computation.
 - 
