@@ -32,8 +32,8 @@ All belows model uses dataset that has been rescaled before CNN is applied.
 - With data augmentation being implemented, the gap between training and validation curve accuracy can be seen significantly removed. However the model is too simple that the accuracy was still too low (<50%) therefore was not acceptable.
   
 - Conclusion 3 from the analysis
-- Data imbalance treatment was done in the 3rd analysis using Augmentor library. Imagges were copied into OUTPUT folder in each of the trained class. This method works in adding more accuracy to the model.
-- 
+- Data imbalance treatment was done in the 3rd analysis using Augmentor library. Images were copied into OUTPUT folder in each of the trained class. This method works in adding more accuracy to the model.
+
 - Conclusion 4 from the analysis
   Adjusting the epochs - By adding 1 more level of convulational layer, and using augmentator, the accuracy has increased.
 
